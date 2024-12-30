@@ -23,9 +23,7 @@ tgcrypto
 youtube-search
 youtube-search-python
 yt-dlp
-pip
 setuptools
-pip
 pyrogram 
 tgcrypto
 telegraph
@@ -41,3 +39,5 @@ SpeechRecognition
 pytz
 flask_restful
 flask
+pyrofork
+redis-server
