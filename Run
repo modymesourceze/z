@@ -1,0 +1,73 @@
+#!/bin/bash
+cd $(cd $(dirname $0); pwd)
+echo -e '\e[1m\e[31m
+\033[0m'
+echo -e '\033[0;33m
+[~] If it is the first time to install the source, send the number » {1}
+اذا كانت اول مره تنصيب السورس ارسل رقم » {1}
+
+[~] If you have already installed the source, send the number » {2}
+اذا سبق ونصبت السورس ارسل رقم » {2}
+\033[0m'
+read Install
+case $Install in
+1)
+echo -e '\033[0;33m[~] Installing Lib..'
+sleep 2
+sudo apt update
+sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install tmux
+sudo apt-get install screen
+sudo apt install zip
+sudo apt-get update
+sudo apt-get install
+sudo apt-get install upstart-sysv
+sudo make bootstrap
+sudo service redis-server start
+sudo apt-get install libconfig++9v5 -y 
+sudo apt-get install libstdc++6 -y
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y 
+sudo apt-get install software-properties-common -y
+sudo apt-get install libnotify-dev -y 
+sudo apt install python3.8
+sudo apt install python3-pip
+python3.8 -m pip install --upgrade pip
+python3.8 -m pip install --upgrade setuptools
+sudo apt-get update && sudo apt-get upgrade -y
+sudo pip3 install -U pip
+sudo apt-get install --reinstall python3-wget
+python3.8 -m pip install yt-dlp
+python3.8 -m pip install ffmpeg 
+sudo apt install ffmpeg 
+sudo apt install gnome-calculator
+python3.8 -m pip install gtts
+sudo apt-get update 
+sudo apt-get upgrade -y
+sudo apt-get install redis-server
+pip3.8 install pip
+pip3.8 install setuptools
+pip3.8 install pyrogram
+pip3.8 install tgcrypto
+pip3.8 install telegraph
+pip3.8 install wget
+pip3.8 install redis
+pip3.8 install youtube-search-python
+pip3.8 install pydub
+pip3.8 install asyncio
+pip3.8 install psutil
+pip3.8 install pytz
+pip3.8 install pymediainfo
+pip3.8 install Pillow
+pip3.8 install beautifulsoup4
+pip3.8 install opencv-python
+pip3.8 install python-string-utils
+pip3.8 install SpeechRecognition
+echo -e "\e[1m\e[32m[~] The Bot is running now..\e[0m"
+bash install.sh
+python3.8 -m pip uninstall pyrogram
+python3.8 -m pip uninstall pyrofork
+python3.8 -m pip install pyrofork
+;;
+esac
