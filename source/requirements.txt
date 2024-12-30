@@ -1,0 +1,16 @@
+pyrogram 
+tgcrypto
+telegraph
+wget
+redis
+youtube-search-python
+pydub
+asyncio
+python-string-utils
+SpeechRecognition
+pillow
+pytz
+yt_dlp
+pymediainfo
+opencv-python
+BeautifulSoup4
