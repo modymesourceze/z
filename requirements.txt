@@ -41,5 +41,3 @@ SpeechRecognition
 pytz
 flask_restful
 flask
-pyrofork
-redis-server
