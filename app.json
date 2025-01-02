@@ -1,0 +1,50 @@
+{
+    "name": "🔱 𝐙𝐄 🔱",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "logo": "https://telegra.ph/file/bd0fde82d09f7681afc99.jpg",
+    "repository": "https://github.com/modymesourceze/collect",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/modymesourceze/collect",
+    "env": {
+        "api_id": {
+            "description": "ايبي ايدي",
+            "value": "25281175",
+            "required": true
+        },
+        "api_hash": {
+            "description": "ايبي هاش",
+            "value": "6d99cb2b60a2c519fc1f99bd19565730",
+            "required": true
+        },
+        "DEVLOO": {
+            "description": "ايـدي الـمـطور",
+            "value": "6581896306",
+            "required": true
+        },
+        "bot_token": {
+            "description": "توكن البوت",
+            "value": "6635986173:AAEBuYxPVay10-qYXqrIlXj7Fyr8syQK7jM",
+            "required": true
+        },
+        "user_bot": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "ee0obot",
+            "required": true
+        },
+        "id_bot": {
+            "description": "ايدي البوت",
+            "value": "6635986173",
+            "required": true
+        },
+    "session": {
+        "description": "كود تيرمكـس",
+        "value": "",
+        "required": true
+    }
+  }
+} 

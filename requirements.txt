@@ -12,10 +12,10 @@ pillow
 psutil
 pykeyboard
 pytgcalls
-py-tgcalls
-pyromod
+py-tgcalls==1.2.9
+pyromod~=1.5
 python-dotenv
-pyyaml
+pyyaml==5.3.1
 requests
 speedtest-cli
 spotipy
@@ -23,7 +23,9 @@ tgcrypto
 youtube-search
 youtube-search-python
 yt-dlp
+pip
 setuptools
+pip
 pyrogram 
 tgcrypto
 telegraph
@@ -39,4 +41,3 @@ SpeechRecognition
 pytz
 flask_restful
 flask
-pyrofork

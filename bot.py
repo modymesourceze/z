@@ -7,7 +7,7 @@ bot = Client(
     "FR3ON",
     api_id=21627756,
     api_hash="fe77fbf0cae9f7f5ece37659e2466cf1",
-    bot_token="7673763548:AAFbgZ6TWEDKV6FKRAiNLh0jMWgS5t8HdWA",
+    bot_token="7798131575:AAEWkCDzfBPhPbGI8XuYd0MEH47_hJj0mTA",
     plugins=dict(root="FR3ON")
     )
 
