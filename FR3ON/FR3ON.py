@@ -64,9 +64,13 @@ import random
 from bot import DEVS
 
 
+import redis
+
 r = redis.Redis(
-    host="127.0.0.1",
-    port=6379,)
+    host='redis-12470.c325.us-east-1-4.ec2.redns.redis-cloud.com',
+    port=12470,
+    password="T6skap2jHYZumHLHDVYcC6kIjjkv423F",
+)
 
 API_ID = int("21627756")
 API_HASH = "fe77fbf0cae9f7f5ece37659e2466cf1"
